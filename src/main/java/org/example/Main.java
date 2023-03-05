@@ -18,7 +18,7 @@ public class Main {
 
         app.routes(() -> {
             app.get("/", ctx -> {
-                ctx.result("Aplicacion 2");
+                ctx.result("Aplicacion 1");
             });
         });
     }
