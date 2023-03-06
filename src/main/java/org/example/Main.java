@@ -14,11 +14,11 @@ public class Main {
             });
         });
 
-        app.start(7001);
+        app.start(7000);
 
         app.routes(() -> {
             app.get("/", ctx -> {
-                ctx.result("Aplicacion 2");
+                ctx.result("Aplicacion 1");
             });
         });
     }
